@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Title of the webpage</title>
+  </head>
+
+  <body>
+    <h1>Heading Tag</h1>
+    <p>Paragraph Tag</p>
+  </body>
+</html>
+
+<!-- 
+
+HTML is an abbreviation for HyperText Markup Language, the most frequently used language on the Internet for developing web pages. 
+
+Since the declaration of <!DOCTYPE> tag is NOT case-sensitive; the below declarations are valid.
+
+<!DOCTYPE html> 
+<!DocType html>
+<!Doctype html>
+<!doctype html>
+
+**## => 5 elements of HTML:
+Doctype, HTML, title, head, and body are the basic five elements.
+
+These are the tags that go at the top and bottom of an HTML file. This contains title, meta tags, content type, and connections to external pages such as CSS and JavaScript.
+
+1. <!DOCTYPE ....> => This tag defines the document type and HTML version.
+
+2. <html> => 
+This tag encloses the whole HTML page and consists mostly of the document header (represented by <head>...</head> tags) and the document body (represented by <body>...</body> tags).
+
+3. <head> => This tag represents the document's header, which includes additional HTML tags such as <title>, <link>, <meta> and so forth. The <header> element is used to display human-readable information such as top-level headers and listed authors.
+
+4. <meta> => The <meta> tag is used to define metadata about an HTML document. Metadata is information (data) about the document.
+
+5. <title> => The <title> tag is used within the <head> tag to specify the document’s title.
+
+6. <body> => This tag represents the document's body, which contains additional HTML tags such as <h1>, <div>, <p>, and so on.
+
+7. <h1> => This tag represents the heading. There are six different HTML headings from <h1> to <h6>.
+
+8. <p> => This tag represents the paragraph.
+-->
+
+<!-- <style>:- The HTML element <style> includes style information for a document or a portion of a document. -->
+<style type="text/css">
+  p {
+    color: #26b72b;
+  }
+</style>
+<p>Hi! I am a paragraph</p>
+
+<!-- <base>:- The <base> HTML element defines the reference point for all relative URLs in a document.  -->
+<base href="https://www.example.com/" />
+<base target="_blank" />
+<base target="_top" href="https://example.com/" />
+
+<!-- <link> :- The <link> tag establishes a connection between the current content and an external resource. -->
+<link href="/media/examples/link-element-example.css" rel="stylesheet" />
+
+<p>This text will be red as defined in the external stylesheet.</p>
+
+<!-- <script> :- The <script> tag is used to integrate a client-side script (JavaScript). -->
+<script src="javascript.js"></script>
+
+<!-- <noscript>:- The <noscript> element specifies alternate content to be presented to users who have scripts deactivated in their browser or are using a browser that does not support script. -->
+
+<script>
+  document.write("Coding Ninjas");
+</script>
+<!-- When the above tag fails to display the content owing to the browser's lack of support, the <noscript> tag is used. -->
+<noscript> Computer Portal </noscript>
+
+<!-- The <body> element includes all of the content of an HTML page, including headers, paragraphs, pictures, hyperlinks, tables, lists, and so on. -->
+<html>
+  <head>
+    <title>Document title</title>
+  </head>
+  <body>
+    <p>This is a paragraph</p>
+  </body>
+</html>
+
+<!--
+1. difference between HTML and XHTML?
+
+    HTML5 is a version of HTML, whereas XHTML is a mix of HTML and XML.
+     XHTML has its own parsing needs, but HTML doesn't have any and works with what it has. 
+     HTML5 uses a less complicated charset and doesn't require type attributes or style elements.
+
+2. HTML elements =>  A start tag, some content, and an end tag define an HTML element.
+
+3. purpose of elements in HTML => To instruct browsers on how to display them.
+
+4. inline elements in HTML =>  Inline elements are displayed in a line. They do not push the text after them to a new line.
+
+5. Why do we need to close the tag in HTML =>  An opening tag begins a section of page content, and a closing tag ends it.
+
+6.  difference between the elements and attributes in HTML => Any object that appears on your page is considered an HTML element. In contrast, an attribute offers additional information about a certain HTML element.
+
+7.  tags => HTML tags are used to keep the HTML element in place.
+8. Elements => HTML elements hold the content.
+9. Attributes => HTML attributes are used to specify the properties of an HTML element in depth.
+
+10. What are the three types of attributes in HTML?
+HTML attributes are divided into four categories:
+ required attributes, optional attributes, standard attributes, and event attributes.
+ The required and optional attributes are often used to change particular HTML elements.
+-->
+
+<!-- <Quotation> tag in HTML -->
+The
+<q>
+  tag or the quotation tag indicates that the enclosed text is a short inline
+  quotation. It has a start tag as <q> and an end tag as </q>
+  <p>AIM's goal is to: <q>ATUL Innovation Mission </q></p>
+</q>
+<!-- output: AIM's goal is to: "ATUL Innovation Mission"-->
+
+<!-- 
+semantic tags and their significance => a semantic HTML element is an element that implies some meaning to the content. OR
+it's an element that tells you something about the content, whether its importance, whether a bit of its description, it gives hints.
+
+purpose the <cite> attribute is used => <cite> attribute is used to specify the source of the quote. 
+
+    content models => Content Model refers to the rules that define what type of content each element is allowed to have. This means what other elements are allowed to be nested inside which other elements. 
+
+
+    Block Level Elements
+
+1. Render to begin on a new line. 
+2. It may contain inline or other block-level elements. 
+ 
+
+Inline Level Elements
+
+1. Render is on the same line. 
+2. It may contain only the inline elements. 
+
+
+HTML ID attribute => The HTML ID attribute is a global attribute used to identify a unique element in the HTML web page. The primary purpose of the ID attribute is to identify a particular component and add styling or functionality to it using CSS and Javascript, respectively.
+ -->

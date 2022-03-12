@@ -1,0 +1,8 @@
+.circle {
+  background: green;
+  border-radius: 50%;
+  width: 10rem;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1/1;
+}
