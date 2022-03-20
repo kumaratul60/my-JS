@@ -49,7 +49,7 @@ var a = {},
 a[b] = 123;
 a[c] = 456;
 console.log(a[b]);
-/*The reason for this is as follows: When setting an object property, JavaScript will implicitly stringify the parameter value. In this case, since b and c are both objects, they will both be converted to "[object Object]". As a result, a[b] anda[c] are both equivalent to a["[object Object]"] and can be used interchangeably. Therefore, setting or referencing a[c] is precisely the same as setting or referencing a[b]. */
+/*The reason for this is as follows: When setting an object property, JavaScript will implicitly stringify the parameter value. In this case, since b and c are both objects, they will both be converted to "[object Object]". As a result, a[b] and a[c] are both equivalent to a["[object Object]"] and can be used interchangeably. Therefore, setting or referencing a[c] is precisely the same as setting or referencing a[b]. */
 
 console.log(
   (function f(n) {
@@ -186,8 +186,8 @@ const tp = {
 const equality = tp == 1 && tp == 2 && tp == 3;
 console.log(equality); // true
 
-// 
-(function(n){
+//
+(function (n) {
   delete n;
   return n;
 })(2);

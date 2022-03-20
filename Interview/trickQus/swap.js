@@ -1,5 +1,7 @@
-let a = 5;
-let b = 6;
+var a = 52;
+var b = 6;
+// var [a, b] = [b, a];
+
 [a, b] = [b, a];
 console.log("swap without third variable", a, b);
 
