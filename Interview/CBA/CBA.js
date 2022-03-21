@@ -1,7 +1,13 @@
-var a = 1;
+var a = 1; // a is bind with global context window
 var num = {
   a: 2,
 };
+function call() {
+  return this.a;
+}
+console.log(call());
+console.log(call.call(num));
+
 function test(b, c) {
   return this.a + b + c;
 }

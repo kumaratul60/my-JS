@@ -196,6 +196,19 @@ const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
 
 console.log(isAppleDevice);
 
+
+
+
+let horseShoe = "🐴👟";
+console.log(horseShoe.length);
+// → 4
+console.log(horseShoe[0]);
+// → (Invalid half-character)
+console.log(horseShoe.charCodeAt(0));
+// → 55357 (Code of the half-character)
+console.log(horseShoe.codePointAt(0));
+// → 128052 (Actual code for horse emoji)
+
 //   Check if the current tab is in view/focus
 /**
 

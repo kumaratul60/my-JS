@@ -16,3 +16,7 @@ console.log(output2);
 const output3 = user.map((x) => x.firstName + "" + x.lastName);
 
 console.log(output3);
+
+const output4 = user.map((x) => x.firstName);
+
+console.log(output4);

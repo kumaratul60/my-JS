@@ -1,5 +1,5 @@
 // Callback => Functions are first class citizens in javascript, that means you can take a function and pass it into another function and when you do so, this function which you pass into another function in known as a callback function.
-//  callback function gives us the power of asychronity in js 
+//  callback function gives us the power of asynchronism in js 
 
 // setTimeout(function () {
 //   console.log("timer");
@@ -21,7 +21,7 @@
 //       console.log("button click", +count);
 //     });
 // }
-// attch(); // function ivocation
+// attch(); // function invocation
 
 function outer() {
   var x = 101;
