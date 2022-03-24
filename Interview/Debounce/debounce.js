@@ -17,7 +17,6 @@ document.getElementById("myId").addEventListener(
   }, 2000)
 );
 
-
 // document.getElementById("myId").addEventListener("click", () => {
 //   console.log("clicked");
 // });

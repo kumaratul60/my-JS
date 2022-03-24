@@ -4,3 +4,12 @@ const sum = (a) => {
   };
 };
 console.log(sum(1)(2)(4)(5)(6)());
+
+// curried version
+
+const curry = (a) => {
+  return (b) => {
+    return a + b;
+  };
+};
+console.log(curry(1)(2));

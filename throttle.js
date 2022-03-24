@@ -28,3 +28,5 @@ window.addEventListener("resize", betterLoggerFunction);
 // };
 
 // window.addEventListener("resize", normalFunc);
+
+// Add me

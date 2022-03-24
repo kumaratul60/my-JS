@@ -22,7 +22,7 @@ const doSomeMagic = (fun, delay) => {
   };
 };
 
- const magic = doSomeMagic(getData, 300);
+const magic = doSomeMagic(getData, 300);
 // const magic = doSomeConst(getData, 300);
 
 //  doSomeMagic() is more optimized than doSomeConst()
