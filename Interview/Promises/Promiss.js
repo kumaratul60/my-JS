@@ -10,7 +10,7 @@ setTimeout(() => {
 
 const myPromise1 = new Promise((resolve, reject) => {
   setTimeout(() => {
-    resolve("It will return value 1s later");
+    resolve("It will return value 1sec later");
   }, 1000);
 });
 myPromise1
