@@ -176,3 +176,5 @@ const snowbit = {
 const { test, ...newSnowbit } = snowbit;
 
 console.log(newSnowbit); //  {age: 15}
+
+
