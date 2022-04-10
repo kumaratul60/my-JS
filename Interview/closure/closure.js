@@ -12,3 +12,15 @@ function test() {
   clo();
 }
 test();
+
+
+
+// 
+function Outer() {
+  function Inner() {
+    console.log("hello");
+  }
+  return Inner;
+}
+var getValue = Outer;
+getValue()();
